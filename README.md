@@ -8,3 +8,6 @@ URL media = https://raw.githubusercontent.com/<user>/<repo>/main/<id>/PIN-NN.png
 Setelah push: `curl -sI <url> | head -1` harus HTTP 200 → jalankan
     python3 Listing/_build/make-pin-csv.py 001 --start YYYY-MM-DD --link <Share & Save listing> --media https://raw.githubusercontent.com/<user>/<repo>/main/001
 Jangan mengganti nama file; jangan pakai branch selain main (atau sebutkan branch-nya).
+
+Facebook (20 Sep 2026): folder `fb/<id>/` (C1–C5.png, Q1–Q3.png, REEL-A/B.mp4) = media URL untuk Bulk upload Meta Business Suite
+(`Produk-Plans/05-JADWAL-FACEBOOK.csv` kolom media_url). Push setiap kali listing baru tayang.
